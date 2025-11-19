@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Portfolio Website</title>
+        <link rel="icon" type="image/x-icon" href="./img/fav_ico/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!--=================== Remixicons ====================-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+            rel="stylesheet"
+        />
+
+        <!--=================== SwiperJS CSS ====================-->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+        <!--=================== Main CSS ====================-->
+        <link rel="stylesheet" href="./css/main.css" />
+
+        <!--=================== Icon ====================-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
+    </head>
+
+    <body>
+        <!--=================== Header ====================-->
+        <header id="header" class="header">
+            <div class="container">
+                <nav class="nav">
+                    <a href="index.html" class="nav__brand">
+                        <i class="ri-code-s-slash-line"></i>Formulator
+                    </a>
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#hero" class="nav__link">Home</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">About</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#qualification" class="nav__link"
+                                    >Qualification</a
+                                >
+                            </li>
+                            <!-- <li class="nav__item">
+                <a href="#service" class="nav__link">Services</a>
+              </li> -->
+                            <li class="nav__item">
+                                <a href="#project" class="nav__link"
+                                    >Projects</a
+                                >
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav__toggle">
+                        <i id="nav-toggle" class="ri-menu-3-line"></i>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!--=================== main ====================-->
+        <main class="main">
+            <!--=================== Hero ====================-->
+            <section id="hero" class="hero">
+                <div class="container">
+                    <div class="d-grid hero__wrapper">
+                        <div class="hero__content">
+                            <h1 class="hero__title">
+                                Hey, I am Abhijith. A,<br />Web Developer.
+                            </h1>
+                            <p class="hero__description">
+                                “We love what we do and we do what our clients
+                                love & work with great clients all over the
+                                world to create thoughtful and purposeful
+                                websites.”
+                            </p>
+                            <div class="hero__info">
+                                <div class="hero__info-wrapper">
+                                    <p class="hero__info-number">02</p>
+                                    <h2 class="hero__info-title">
+                                        Years<br />Experience
+                                    </h2>
+                                </div>
+                                <div class="hero__info-wrapper">
+                                    <p class="hero__info-number">07+</p>
+                                    <h2 class="hero__info-title">
+                                        Projects<br />Completed
+                                    </h2>
+                                </div>
+                                <div class="hero__info-wrapper">
+                                    <p class="hero__info-number">02</p>
+                                    <h2 class="hero__info-title">
+                                        Companies<br />
+                                        Worked
+                                    </h2>
+                                </div>
+                                <div class="hero__info-wrapper">
+                                    <p class="hero__info-number">03+</p>
+                                    <h2 class="hero__info-title">
+                                        Start-up's<br />
+                                        Worked
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <img src="img/hero.jpg" alt="Dave" class="hero__img" /> -->
+                    </div>
+                </div>
+            </section>
+
+            <!--=================== About ====================-->
+            <section id="about" class="section about">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">About Me</h2>
+                        <span class="section__subtitle">Who am I</span>
+                    </div>
+                    <div class="d-grid about__wrapper">
+                        <div class="about__content">
+                            <h3 class="about__title">
+                                I'm a Professional and Experienced Web
+                                Developer.
+                            </h3>
+                            <p class="about__description">
+                                “Passionate and driven Full-Stack Developer with
+                                a focus on innovation and continuous
+                                improvement. I excel in both Python Django for
+                                back-end and React for front-end, creating
+                                impactful, high-quality web applications.
+                                Motivated by challenges and a deep curiosity, I
+                                thrive in dynamic environments where I can learn
+                                and grow. Committed to delivering excellence, I
+                                am eager to contribute to projects that push the
+                                boundaries of technology.”
+                            </p>
+                            <!-- <a href="#" class="btn btn--primary">Know More</a> -->
+                        </div>
+                        <div class="skills">
+                            <h3 class="skills__title">
+                                Technologies I've been working with:
+                            </h3>
+                            <div class="skills__wrapper">
+                                <div class="skills__content">
+                                    <h4 class="skills__subtitle">Frontend</h4>
+                                    <ul class="skills__list">
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            HTML
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            CSS/Sass
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            JavaScript
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Bootstrap
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            React
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Next.js
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="skills__content">
+                                    <h4 class="skills__subtitle">Devops</h4>
+                                    <ul class="skills__list">
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            AWS
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Digital Oceion
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="skills__content">
+                                    <h4 class="skills__subtitle">Backemd</h4>
+                                    <ul class="skills__list">
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Django framework
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Postgres sql
+                                        </li>
+                                        <li class="skills__item">
+                                            <i
+                                                class="ri-arrow-right-s-fill"
+                                            ></i>
+                                            Python
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=================== Qualification ====================-->
+            <section id="qualification" class="section qualification">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">Qualification</h2>
+                        <span class="section__subtitle"
+                            >Experience & Education</span
+                        >
+                    </div>
+                    <!--============== Professional Experience ============-->
+                    <div class="qualification__wrapper">
+                        <h3 class="qualification__name">
+                            <i class="ri-briefcase-fill"></i>
+                            Professional Experience
+                        </h3>
+                        <div class="d-grid qualification__content">
+                            <!-- Experience 1-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    Junior Front-end Developer
+                                </h3>
+                                <p class="qualification__description">
+                                    Next.js Front-end Developer Ribos
+                                    technologies private limited - kollam, India
+                                </p>
+                                <span class="qualification__date"
+                                    >Ribos technologies private limited | 2025 - present</span
+                                >
+                            </div>
+                            <!-- Experience 2-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    Junior Front-end Developer
+                                </h3>
+                                <p class="qualification__description">
+                                    Next.js Front-end Developer Tegain private
+                                    limited - kollam, India
+                                </p>
+                                <span class="qualification__date"
+                                    >Tegain private limited | 2024 - 2025</span
+                                >
+                            </div>
+                            <!-- Experience 3-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    Junior Front-end Developer
+                                </h3>
+                                <p class="qualification__description">
+                                    Next.js Front-end Developer Steyp -Wayanad,
+                                    India
+                                </p>
+                                <span class="qualification__date"
+                                    >Steyp | 2023 - 2024</span
+                                >
+                            </div>
+                            <!-- Experience 4-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    Support Front-end Developer
+                                </h3>
+                                <p class="qualification__description">
+                                    Full Stack Web Developer Intern Talrop -
+                                    Kochi, India
+                                </p>
+                                <span class="qualification__date"
+                                    >Steyp | 2022 to 2023</span
+                                >
+                            </div>
+                            <!-- Experience 3-->
+                            <!-- <div class="qualification__item">
+                <h3 class="qualification__title">
+                  UI/UX Designer at Pinterest
+                </h3>
+                <p class="qualification__description">
+                  --ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+                  ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
+                  ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ--
+                </p>
+                <span class="qualification__date">2017 - 2019</span>
+              </div> -->
+                        </div>
+                    </div>
+                    <!--============== Education ============-->
+                    <div class="qualification__wrapper">
+                        <h3 class="qualification__name">
+                            <i class="ri-booklet-fill"></i>
+                            Education
+                        </h3>
+                        <div class="d-grid qualification__content">
+                            <!-- Education 1-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    Software Engineer
+                                </h3>
+                                <p class="qualification__description">
+                                    Steyp Private Limited ( Online Platform )<br />
+                                    Kochi, Wayanad, Trivandrum
+                                </p>
+                                <span class="qualification__date"
+                                    >2022 - 2024</span
+                                >
+                            </div>
+                            <!-- Education 2-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    VHSE | Kerala board
+                                </h3>
+                                <p class="qualification__description">
+                                    Govt. VHS School, Kottankulangara
+                                </p>
+                                <span class="qualification__date"
+                                    >2020 - 2022</span
+                                >
+                            </div>
+                            <!-- Education 3-->
+                            <div class="qualification__item">
+                                <h3 class="qualification__title">
+                                    SSLC | Kerala board
+                                </h3>
+                                <p class="qualification__description">
+                                    Government Hss Boys, Chavara
+                                </p>
+                                <span class="qualification__date">2019</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qualification__footer">
+                        <p class="qualification__footer-text">
+                            See my full resume
+                        </p>
+                        <a
+                            href="https://drive.google.com/file/d/1YNidoWqfxG1U2sVWNoGMRwEbp6-3t3dO/view?usp=sharing"
+                            class="btn btn--primary"
+                            target="_blank"
+                            >Resume</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!--=================== services ====================-->
+            <!-- <section id="service" class="section service">
+        <div class="container">
+          <div class="section__header">
+            <h2 class="section__title">Services</h2>
+            <span class="section__subtitle">What I do</span>
+          </div>
+          <div class="d-grid service__wrapper">
+            
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-layout-4-fill"></i>
+              </div>
+              <h3 class="service__title">Frontend<br />Development</h3>
+              <a href="#" class="service__link">Know More</a>
+            </div>
+            
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-code-s-slash-line"></i>
+              </div>
+              <h3 class="service__title">
+                Backend<br />
+                Development
+              </h3>
+              <a href="#" class="service__link">Know More</a>
+            </div>
+            
+            <div class="service__card">
+              <div class="service__icon">
+                <i class="ri-pen-nib-fill"></i>
+              </div>
+              <h3 class="service__title">
+                UI/UX<br />
+                Design
+              </h3>
+              <a href="#" class="service__link">Know More</a>
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+            <!--=================== Projects ====================-->
+            <section id="project" class="section project">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">Projects</h2>
+                        <span class="section__subtitle">My recent work</span>
+                    </div>
+                    <div class="d-grid project__wrapper">
+                        <!--============== project 1 =============-->
+                        <div class="project__content">
+                            <img
+                                src="img/project1.jpg"
+                                alt="Agency Website"
+                                class="project__img"
+                            />
+                            <h3 class="project__title">404</h3>
+                            <p class="project__description">404</p>
+                            <a href="/errorpage.html" class="project__link"
+                                >View Project <i class="ri-arrow-right-line"></i
+                            ></a>
+                        </div>
+                        <!--============== project 2 =============-->
+                        <div class="project__content">
+                            <img
+                                src="img/project2.jpg"
+                                alt="Crypto Application "
+                                class="project__img"
+                            />
+                            <h3 class="project__title">404</h3>
+                            <p class="project__description">404</p>
+                            <a href="/errorpage.html" class="project__link"
+                                >View Project <i class="ri-arrow-right-line"></i
+                            ></a>
+                        </div>
+                        <!--============== project 3 =============-->
+                        <div class="project__content">
+                            <img
+                                src="img/project3.jpg"
+                                alt="Ecommerce Website"
+                                class="project__img"
+                            />
+                            <h3 class="project__title">404</h3>
+                            <p class="project__description">404</p>
+                            <a href="/errorpage.html" class="project__link"
+                                >View Project <i class="ri-arrow-right-line"></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=================== Testimonials ====================-->
+            <section id="testimonial" class="section testimonial">
+                <div class="container">
+                    <div class="section__header">
+                        <h2 class="section__title">Testimonials</h2>
+                        <span class="section__subtitle">My team say's</span>
+                    </div>
+                    <div class="testimonial__wrapper swiper">
+                        <div class="swiper-wrapper">
+                            <!--========= testimonial 1 ============ -->
+                            <div class="testimonial__card swiper-slide">
+                                <img
+                                    src="img/nishmal.jpeg"
+                                    alt="Hamza Nishmal KP"
+                                    class="testimonial__img"
+                                />
+                                <div class="testimonial__content">
+                                    <p class="testimonial__description">
+                                        "Crafting seamless, secure, and scalable
+                                        web applications that elevate user
+                                        experiences and stand the test of time."
+                                    </p>
+                                    <h3 class="testimonial__name">
+                                        Hamza Nishmal K P
+                                    </h3>
+                                    <span class="testimonial__occupation"
+                                        >Front-end Developer at Tegain</span
+                                    >
+                                </div>
+                                <a
+                                    href="https://www.linkedin.com/in/hamza-nishmal-kp/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                >
+                                    <i class="fab fa-linkedin"></i> View Profile
+                                </a>
+                            </div>
+                            <!--========= testimonial 2 ============ -->
+                            <div class="testimonial__card swiper-slide">
+                                <img
+                                    src="img/Gazeem.jpg"
+                                    alt="John Clarke"
+                                    class="testimonial__img"
+                                />
+                                <div class="testimonial__content">
+                                    <p class="testimonial__description">
+                                        "User interface is the process of
+                                        shifting from chaotic complexity to
+                                        elegant simplicity."
+                                    </p>
+                                    <h3 class="testimonial__name">
+                                        Gazeem K V
+                                    </h3>
+                                    <span class="testimonial__occupation"
+                                        >Backend developer at Tegain</span
+                                    >
+                                </div>
+                                <a
+                                    href="https://www.linkedin.com/in/gazeem-kv-aa7510272/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                >
+                                    <i class="fab fa-linkedin"></i> View Profile
+                                </a>
+                            </div>
+                            <!--========= testimonial 3 ============ -->
+                            <div class="testimonial__card swiper-slide">
+                                <img
+                                    src="img/Hijas.jpeg"
+                                    alt="Muhammad HijasVi"
+                                    class="testimonial__img"
+                                />
+                                <div class="testimonial__content">
+                                    <p class="testimonial__description">
+                                        "Leverage my Full-Stack Development
+                                        skills to create efficient, scalable web
+                                        applications with a focus on user
+                                        experience and security."
+                                    </p>
+                                    <h3 class="testimonial__name">
+                                        Muhammad Hijas
+                                    </h3>
+                                    <span class="testimonial__occupation"
+                                        >Front-end Developer at Tegain
+                                    </span>
+                                </div>
+                                <a
+                                    href="https://www.linkedin.com/in/muhammad-hijas-b40460245/"
+                                    class="btn btn--secondary"
+                                    target="_blank"
+                                >
+                                    <i class="fab fa-linkedin"></i> View Profile
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--=================== Contact ====================-->
+            <section id="contact" class="section contact">
+                <div class="container">
+                    <div class="d-grid contact__wrapper">
+                        <div class="contact__content">
+                            <h2 class="contact__title">
+                                Interested in working together? Let's talk
+                            </h2>
+                            <p class="contact__description">
+                                If you need help building or refining this
+                                section on your website, I can assist with that
+                                too!
+                            </p>
+                        </div>
+                        <div class="contact__btn">
+                            <a
+                                href="https://www.linkedin.com/in/abhijith-a-095859253/"
+                                class="btn btn--secondary"
+                                target="_blank"
+                                >Get in touch</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--=================== footer ====================-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="d-grid footer__wrapper">
+                    <div class="footer__content">
+                        <h4 class="footer__title">Follow Me</h4>
+                        <ul class="footer__social-list">
+                            <!-- <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-facebook-fill"></i>
+                </a>
+              </li> -->
+                            <li class="footer__social-item">
+                                <a
+                                    href="https://www.instagram.com/a_bhijith_appuz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                    class="footer__social-link"
+                                    target="_blank"
+                                >
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </li>
+                            <!-- <li class="footer__social-item">
+                <a href="#" class="footer__social-link">
+                  <i class="ri-twitter-fill"></i>
+                </a>
+              </li> -->
+                            <li class="footer__social-item">
+                                <a
+                                    href="https://github.com/Abhihijith"
+                                    class="footer__social-link"
+                                >
+                                    <i class="ri-github-fill"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__content">
+                        <h4 class="footer__title">Email Me</h4>
+                        <a
+                            href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=abhijithanu537@gmail.com"
+                            class="footer__contact"
+                            target="_blank"
+                            >abhijithanu537@gmail.com</a
+                        >
+                    </div>
+                    <div class="footer__content">
+                        <h4 class="footer__title">Call Me</h4>
+                        <a href="tel:+917907532004" class="footer__contact"
+                            >Call +91 7907 532002</a
+                        >
+                    </div>
+                </div>
+                <p class="footer__copyright">
+                    &copy; 2024 Abhijith . All Rights Reserved
+                </p>
+            </div>
+        </footer>
+
+        <!--=================== SwiperJS  ====================-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <!--=================== ScrollReveal ==================-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=================== Main JS ====================-->
+        <script src="js/main.js"></script>
+    </body>
+</html>

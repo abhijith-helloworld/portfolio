@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>404 - Page Not Found</title>
+        <link rel="icon" type="image/x-icon" href="./img/fav_ico/favicon.ico" />
+        <link rel="stylesheet" href="./css/main.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+        <style>
+            @keyframes bounce {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-20px);
+                }
+            }
+
+            .bounce {
+                animation: bounce 2s infinite;
+            }
+        </style>
+    </head>
+    <body class="var(--color-text) flex items-center justify-center h-screen">
+        <div class="text-center rounded-lg px-12 py-12">
+            <h1 class="text-6xl font-bold var(--color-white) bounce">404</h1>
+            <p class="text-xl var(--color-white) mt-4">Oops! Page Not Found</p>
+            <a
+                href="/"
+                class="mt-6 inline-block px-4 py-2 btn btn--primary text-white rounded hover:var(--color-text)"
+            >
+                Go Back Home
+            </a>
+        </div>
+    </body>
+</html>
